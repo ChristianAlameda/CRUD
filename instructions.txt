@@ -1,12 +1,17 @@
 BACKEND
 npm init -y 
 npm mysql express 
+npm i cors
+
+FRONT END
+npm i bootstrp
+npm i react-router-dom // may be wrong idk
+npm i axios
 
 CRUD
 npx create-react-app frontend
  
  BACKEND
- npm i cors
  node server.js
 
  XAMPP
@@ -16,15 +21,18 @@ npx create-react-app frontend
  localhost:/dashboard
  phpMyAdmin
  make a new table
- student: 3 | ID INT Primary Key | Name VarChar 20 | Email VarChar 20 | 
+ student: 3 
+    ID: INT, 11 Characters, primary key, auto increment
+    Name: VarChar, 20 Characters
+    Email: VarChar, 20 Characters
 
 BACKEND 
 node server.js
 npm start
 
-FRONT END
-npm i bootstrp
-npm i react-router-dom // may be wrong idk
+
+
+
 
  
  
